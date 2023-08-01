@@ -1,4 +1,7 @@
 def main(A,B):
+    s=0
+    for a in list(range(A,B)):
+        s=s+a 
     """
     Return the sum of all integers from A to B.
     Args:
@@ -7,4 +10,5 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    return s
+print(main(4,7))
