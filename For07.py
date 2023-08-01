@@ -1,6 +1,6 @@
 def main(N):
     a=0
-    for s in list(range(N)):
+    for s in list(range(N+1)):
         if s%2==1:
             a=a+s
     """
