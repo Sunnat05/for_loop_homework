@@ -1,4 +1,7 @@
 def main(k,n):
+    while n>1:
+        print(k)
+        n=n-1
     """
     Repeat the number k n times and return to the list view.
     Args:
@@ -7,4 +10,5 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    return k
+print(main(4,6))
