@@ -1,5 +1,5 @@
 def main(list1):
-    for a in list(range(list1)):
+    for a in list1:
         a=a
         if a in "QWERTYUIOPLKJHGFDSAZXCVBNM": 
             return a        
@@ -11,4 +11,4 @@ def main(list1):
         list: return  answer
     """
     return list(range(a))
-print(main(ASGHJsdgh))
+print(main('dSGHJsdgh'))
