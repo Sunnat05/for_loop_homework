@@ -7,6 +7,7 @@ def main(n):
         string: return  answer
      """
     ans=""
-    ans+=str(list(range(n)))
-    return ans[1:-1]
+    for i in range(n):
+        ans+=str(i)+','
+    return ans[:-1]
 print(main(4)) 
