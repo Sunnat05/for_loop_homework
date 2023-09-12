@@ -1,6 +1,6 @@
 def main(A,B):
     ans=[]
-    for i in list(range(A,B)):
+    for i in list(range(A+1,B+1)):
         ans+=[i]
     """
     Return the numbers from B to A in the form of a list.
