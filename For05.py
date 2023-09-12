@@ -1,4 +1,7 @@
 def main(A,B):
+    ans=""
+    for i in list(range(A+1,B+1)):
+        ans+=str(i)+','
     """
     Return the numbers from B to A in the form of a list.
     Args:
@@ -7,5 +10,5 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return list(range(B,A,-1))
+    return ans[-2::-1]
 print(main(3,7))
