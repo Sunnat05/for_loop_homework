@@ -8,4 +8,4 @@ def main(list1):
         list: return  answer
     """
     return a
-print(main('dSGHJsdgh','dasa'))
+print(main('dSGHJsdgh'))
